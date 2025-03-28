@@ -29,13 +29,13 @@ public class Triangle {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Введите сторону A треугольника: ");
+        System.out.print("Введи сторону A треугольника: ");
         double sideA = scanner.nextDouble();
 
-        System.out.print("Введите сторону B треугольника: ");
+        System.out.print("Введи сторону B треугольника: ");
         double sideB = scanner.nextDouble();
 
-        System.out.print("Введите сторону C треугольника: ");
+        System.out.print("Введи сторону C треугольника: ");
         double sideC = scanner.nextDouble();
 
         Triangle triangle = new Triangle(sideA, sideB, sideC);
